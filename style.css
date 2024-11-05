@@ -1,0 +1,133 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #31473a;
+  margin: 0px;
+  padding: 20px;
+}
+#imagePreview {
+  margin: 10px 0;
+  border: 2px solid #ddd;
+  padding: 10px;
+}
+.container {
+  width: 60%;
+  margin: auto;
+  background-color: #b2cac4;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 254, 254, 0.996);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3vw;
+  color: #31473a;
+}
+
+label {
+  display: flex;
+  margin-top: 10px;
+  font-weight: 549;
+  color: #31473a;
+  font-weight: 600;
+}
+input ::placeholder{
+    color: white;
+   
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #453030;
+  border-radius: 8px;
+  margin-left: 1px;
+  border: none;
+  border-bottom:2px solid #000000;
+  box-shadow: 0 0 10px #15fd0049,
+   0 0 10px #02fad904;
+}
+input:hover {
+ 
+  background: linear-gradient(to bottom, #8fb1a4, #b2cac4);
+}
+
+textarea:hover {
+  background: linear-gradient(to bottom, #8fb1a4, #b2cac4);
+}
+button {
+  padding: 10px 26px;
+  margin-top: 15px;
+  background-color: #31473a;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: medium;
+  border: 3px solid #31473a;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #31473a;
+  transition: ease-in-out 0.4s;
+}
+
+.resume {
+  margin-top: 30px;
+  padding: 5px;
+  background-color: #dcecfc;
+  border: 1px solid #302f2f;
+  border-radius: 8px;
+}
+
+.resume h2,
+.resume h3,
+.resume p,
+.resume label {
+  display: flex;
+  justify-content: left;
+  padding: 2px;
+  margin-left: 20px;
+}
+fieldset {
+  border: 2px double;
+  border-radius: 8px;
+  box-shadow: #000000;
+}
+.resume img{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+
+  
+}
+@media (max-width:600px) {
+  .container{
+    width: 80%;
+    
+  }
+  h1,h2{
+    font-size: 6vw;
+  }
+  .resume h2,
+.resume h3,
+.resume p,
+.resume label
+ {
+
+  font-size: 2vw;
+  display:flex;
+    align-items: center;
+     justify-content:space-evenly;
+     margin: 10px;
+}
+.resume img{
+  width: 100px;
+}
+}
